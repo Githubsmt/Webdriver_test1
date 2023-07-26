@@ -21,5 +21,11 @@ public class GetMethods {
         else{
             System.out.println("Text is not present in source");
         }
+        //driver.close();
+
+        driver.get("https://naukri.com");
+        driver.quit();
     }
+
+
 }
